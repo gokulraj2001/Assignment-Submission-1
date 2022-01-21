@@ -1,0 +1,59 @@
+body {
+    align-content: center;
+    background-color: rgb(241, 113, 173);
+    color: black;
+}
+
+h3 {
+    font-size: 45px;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+}
+
+.contact-box {
+    border-radius: 20px;
+    margin-top: 2%;
+    width: 500px;
+    background-color: rgb(255, 255, 248);
+    box-shadow: 0 0 10px 0 rgb(153, 153, 153);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+form {
+    margin: 35px;
+}
+
+
+
+.btn {
+    font-size: large;
+    border-radius: 10px;
+    color: #fff;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 10px;
+    margin-left: 150px;
+    background-color: rgb(165, 25, 102);
+    border: none;
+    cursor: pointer;
+}
+#name, #email, #message{
+    width: 400px;
+    font-size: large;
+    height: 40px;
+    margin-top: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: 1px solid #777;
+    outline: none
+}
+#message{
+     height:100px ;
+} 
